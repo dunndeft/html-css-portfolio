@@ -1,0 +1,110 @@
+html {
+    font-size: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background-color: skyblue;
+    padding: 50px;
+}
+
+.content {
+    background-color: black;
+    padding: 20px;
+    border: 5px solid gold;
+}
+
+.header {
+    text-align: center;
+    color: white; 
+}
+
+.image {
+    padding: 50px;
+    text-align: center;
+}
+
+#image {
+    border: 5px solid gold;
+}
+
+.about {
+    background-color: white;
+    padding: 20px;
+    text-align: center;        
+}
+
+.work {
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;      
+}
+
+.image-4 {
+    
+    display: inline-block;
+    margin: 20px;
+}
+
+.image-5 {
+    display: inline-block;
+    margin: 20px;
+}
+
+.image-6 {
+    display: inline-block;
+    margin: 20px;
+}
+
+#image-4-image {
+    border: 5px solid gold;
+}
+
+#image-5-image {
+    border: 5px solid gold;
+}
+
+#image-6-image {
+    border: 5px solid gold;
+}
+
+.image-10 {
+    
+    display: inline-block;
+    margin: 20px;
+}
+
+.image-11 {
+    display: inline-block;
+    margin: 20px;
+}
+
+.image-12 {
+    display: inline-block;
+    margin: 20px;
+}
+
+#image-10-image {
+    border: 5px solid gold;
+}
+
+#image-11-image {
+    border: 5px solid gold;
+}
+
+#image-12-image {
+    border: 5px solid gold;
+}
+
+.links {
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;      
+}
