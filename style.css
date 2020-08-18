@@ -8,6 +8,34 @@ html {
     box-sizing: border-box;
 }
 
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    display: inline-block;
+    color: gold;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: gold;
+    color: white;
+  }
+
 .background {
     background-color: skyblue;
     padding: 50px;
@@ -47,7 +75,6 @@ html {
 }
 
 .image-4 {
-    
     display: inline-block;
     margin: 20px;
 }
@@ -106,5 +133,49 @@ html {
     background-color: white;
     margin-top: 20px;
     padding: 20px;
+    text-align: center;   
+}
+
+.contact {
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
     text-align: center;      
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+form input, textarea {
+    margin: 10px 0;
+    border: 0;
+    background-color: lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+form input[type=submit] {
+    background-color:skyblue;
+}
+
+form textarea {
+    min-height: 60px;
+    max-height: 100px;
+    resize: vertical;
+}
+
+footer {
+    background-color: black;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-copy {
+    color: white;
 }
