@@ -1,3 +1,3 @@
-# html-css-portfolio
+# portfolio-html-css
 
-Netlify: https://xenodochial-einstein-1fc587.netlify.app/
+Netlify: https://dunndeft-portfolio-html-css.netlify.app/
